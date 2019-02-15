@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
     Imgdata2=[ 'MH2001 Ant.-min.jpg',
       'Mh2001 SS-min.jpg',
       'MH2002 Ant.-min.jpg',
-       'MH2003 BS-min.jpg',
+       'MH2003 BS-min.jpg', 
        'MH2003 SS-min.jpg',
        'MH2004 Ant.-min.jpg'];
   showimg(j){
