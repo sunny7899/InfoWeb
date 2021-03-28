@@ -11,9 +11,11 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-  Imgdata=["portfolio-2.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg",
-  "portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg"
-,"portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg","portfolio-1.jpg"];
+  PrintButton = true;
+  Imgdata=[{img: "portfolio-1.jpg", name: 'YourVisit'},{img: "portfolio-2.jpg", name: 'Book rental'},
+   {img: "portfolio-3.jpg", name: 'Home Interior Display'}, {img: "portfolio-4.jpg", name: 'Listen and rate music'},
+  {img: "portfolio-5.jpg", name: 'pocket doctor'}, {img: "portfolio-6.jpg", name: 'studypal'},
+   {img: "portfolio-7.jpg", name: 'photography'}, {img: "portfolio-8.jpg", name: 'ERP and POS'}];
 
   showimg(j){
     var modal = document.getElementById('myModal');
@@ -22,7 +24,7 @@ export class HomeComponent implements OnInit {
       modal.style.display = "block";
       modalImg.src = '../../assets/img/'+j;
   }
- 
+
   hidepreviewpop(){
     var modal = document.getElementById('myModal');
       modal.style.display = "none";
