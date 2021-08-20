@@ -1,3 +1,7 @@
+
+portfolio column - pick some templates, wireframes, prototypes, good images, videos, gif from Pinterest and dribble that you had done work on these designs.
+
+
 # Infoweb || IT- Imperial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.

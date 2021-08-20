@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "galleryApp"
+  "defaultProject": "galleryApp",
+  "cli": {
+    "analytics": "0d2f9f8e-e40f-4520-8fd4-2b00e78a14ca"
+  }
 }
