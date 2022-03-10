@@ -9,10 +9,10 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
   PrintButton = true;
-  Imgdata = [{ img: 'portfolio-1.jpg', name: 'YourVisit' }, { img: 'portfolio-2.jpg', name: 'Book rental' },
-  { img: 'portfolio-3.jpg', name: 'Home Interior Display' }, { img: 'portfolio-4.jpg', name: 'Listen and rate music' },
-  { img: 'portfolio-5.jpg', name: 'pocket doctor' }, { img: 'portfolio-6.jpg', name: 'studypal' },
-  { img: 'portfolio-7.jpg', name: 'photography' }, { img: 'portfolio-8.jpg', name: 'ERP and POS' }];
+  Imgdata = [{ img: 'portfolio-1.jpg', name: 'Order summary' }, { img: 'portfolio-2.jpg', name: 'Music sound library' },
+  { img: 'portfolio-3.jpg', name: 'Huddle community' }, { img: 'portfolio-4.jpg', name: 'Tip calculator' },
+  { img: 'portfolio-5.jpg', name: 'NFT card' }, { img: 'portfolio-6.jpg', name: 'AI tools' },
+  { img: 'portfolio-7.png', name: 'Simple login app' }, { img: 'portfolio-8.jpg', name: 'entertainment web app' }];
 
   ngOnInit() {
   }
