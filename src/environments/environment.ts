@@ -7,7 +7,7 @@ export const environment = {
   datadog: {
      clientToken: '',
      site: 'datadoghq.com', 
-     applicationId: '4650d67b-2da1-414e-ae95-dcffd7a54838',
+     applicationId: '',
      service: 'my-web-application'}
 };
 
