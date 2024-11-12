@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  datadog: {
+     clientToken: '',
+     site: 'datadoghq.com', 
+     applicationId: '4650d67b-2da1-414e-ae95-dcffd7a54838',
+     service: 'my-web-application'}
 };
 
 /*
